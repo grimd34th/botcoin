@@ -1,4 +1,6 @@
 node=$(which node)
 
+all: test
+
 test:
-	($node) bot.js
+	$(node) ./bot.js
