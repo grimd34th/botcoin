@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/grimd34th/botcoin.svg?branch=master)](https://travis-ci.org/grimd34th/botcoin)
 Botcoin
 =======
 
