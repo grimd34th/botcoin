@@ -13,11 +13,11 @@
     "steam-trade": "git://github.com/seishun/node-steam-trade.git",
     "coinbase": "*",
     "redis": "*",
-    "dogeapi.js":"git://github.com/brutalhonesty/dogeapi.js.git"
+    "dogeapi.js": "git://github.com/brutalhonesty/dogeapi.js.git"
   },
   "engines": {
     "node": "0.10.x"
-  }
+  },
   "scripts": {
     "test": "node test/bot.js"
   }
