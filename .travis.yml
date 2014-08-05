@@ -1,11 +1,5 @@
 language: node_js
 node_js:
   - "0.10"
-before_install:
-  - "sudo apt-get install -y git"
-  - "mkdir node_modules"
-  - "cd node_modules"
-  - "git clone git://github.com/brutalhonesty/dogeapi.js.git"
-  - "cd .."
 services:
   - redis-server
