@@ -6,11 +6,11 @@
   "main": "./bot.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:illuminatedgeek/botcoin.git"
+    "url": "git://github.com/grimd34th/botcoin.git"
   },
   "dependencies": {
     "steam": "*",
-    "steam-trade": "git+ssh://git@github.com:seishun/node-steam-trade.git",
+    "steam-trade": "git://github.com/seishun/node-steam-trade.git",
     "coinbase": "*",
     "redis": "*"
   },
