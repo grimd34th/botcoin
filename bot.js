@@ -1,4 +1,4 @@
-#! /usr/bin/node
+#! /usr/local/bin/node
 var fs = require('fs');
 var Steam = require('steam');
 var SteamTrade = require('steam-trade');
@@ -47,7 +47,7 @@ steam.on('sentry',function(sentryHash) {
 
 // Log in to Coinbase
 console.log("Logging in to Coinbase...");
-coin = new Coinbase({APIKey: config.coinbase.APIKey});
+coin = new Coinbase({APIKey: config.coinbase.APIKey, APISecret: config.coinbase.APISecret});
 coin.account.balance(function(err,data){
   console.log("Balance:    " + data.amount + " BTC");
   console.log("Key price: $" + price);
